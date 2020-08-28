@@ -12,7 +12,7 @@
 		background-attachment: scroll;;
 	}*/ 
 	p.bold {
-		font-family:Verdana,sans-serif;
+		font-family: Roboto, sans;
 		font-size: 59px;
 		letter-spacing: 1px;
 		position: relative;
@@ -20,6 +20,7 @@
 		color: #1b1b1b;
 	}
 	p.thin {
+		font-family: Roboto, sans-serif;
 		text-align: justify;
 		letter-spacing: 6px;
 		color: #4c4c4c;
@@ -35,14 +36,13 @@
 	.small{
 		position: relative;
 		top: 1em;
-		
 	}
 	.color{
 		position: relative;
 		top: -3em;
 	}
 	.header{
-		font-family: Helvetica, sans-serif;
+		font-family: Roboto, sans-serif;
 		font-size: 17px;
 		color: hsl(230, 17%, 14%);
 		line-height: 0.3;
@@ -51,14 +51,14 @@
 		max-width: 100%;	
 	}
 	.header2 {
-		font-family: Helvetica, sans-serif;
+		font-family: Roboto, sans-serif;
 		font-size: 14px;
 		font-weight: 400;
 		color: hsl(228, 12%, 44%);
 		margin-left: 8%;
 	}
 	.header p {
-		font-family:'Lucida Sans', sans-serif;
+		font-family: Roboto, sans-serif;
 		font-size: 12px;
 		font-weight: 700;
 		color: hsl(228, 12%, 44%);	
@@ -73,7 +73,8 @@
 	}
 	.item b {
 		font-size: 14px;
-		font-weight: 500;
+		font-weight: 700;
+		font-family: Roboto, sans-serif;
 		color: #090913;
 		position: relative;
 		bottom: 6px;
@@ -190,7 +191,7 @@
 		z-index: -1;
 	}
 	.header{
-		font-family: Helvetica, sans-serif;
+		font-family: Roboto, sans-serif;
 		font-size: 17px;
 		color: hsl(230, 17%, 14%);
 		line-height: 0.3;
@@ -199,7 +200,7 @@
 		max-width: 40%;	
 	}
 	.header2 {
-		font-family: Helvetica, sans-serif;
+		font-family: Roboto, sans-serif;
 		font-size: 14px;
 		font-weight: 400;
 		color: hsl(228, 12%, 44%);
