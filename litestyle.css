@@ -6,11 +6,43 @@
 		margin: 0;
 		padding: 0;
 	}
-	/*#bud{/*background: -o-linear-gradient(hsl(227, 53%, 84%),rgba(255, 255, 255, 0.685));
-		background: -moz-linear-gradient(hsl(228, 56%, 81%),rgba(255, 255, 255, 0.685));*/
-		/*background: linear-gradient(hsla(226, 55%, 85%, 0.705),rgba(255, 255, 255, 0.685));
-		background-attachment: scroll;;
-	}*/ 
+.toggle{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			
+			background: hsl(230, 22%, 74%);
+			width: 14%;
+			height: 4%;
+			border-radius: 20px;
+			outline: none;
+			position: absolute;
+			top: 18%;
+			right: 10vw;
+			cursor: pointer;
+	}
+#off{
+			width: 45%;
+			height: 85%;
+			margin: auto;
+			border: none;
+			border-radius: 20px;
+			outline: none;
+			background: hsl(1, 1%, 100%);
+			opacity: 0.7;
+			font-size: 12px;
+			color: #ffb72e;
+			text-decoration: none;
+			visibility: visible;
+	}
+#on{
+			visibility: hidden;
+	}
+	
+	hr{
+			margin-right: 30px;
+			border-color: #bfbfbf;
+	}
 	p.bold {
 		font-family: Roboto, sans-serif;
 		font-size: 59px;
@@ -21,6 +53,7 @@
 	}
 	p.thin {
 		font-family: Roboto, sans-serif;
+		font-weight: 500;
 		text-align: justify;
 		letter-spacing: 6px;
 		color: #4c4c4c;
@@ -100,17 +133,33 @@
 		align-items: center;
 		justify-content: center;
 	}
+	#orange{
+		 border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+	
+	}
+	#orange:before{
+		 content:'';
+    position:absolute;
+    top: 0;
+    width:100%;
+    height:4px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background:linear-gradient(to left, hsl(37, 97%, 70%), hsl(329, 70%, 58%));	
+	}
+	
 	#blue {
-		border-top: 3px solid hsl(208, 92%, 53%);
+		border-top: 4px solid hsl(208, 92%, 53%);
 	}
 	#cyan {
-		border-top: 3px solid hsl(203, 89%, 53%);
+		border-top: 4px solid hsl(203, 89%, 53%);
 	}
-	#orange {
-		border-top: 3px solid hsl(17, 90%, 48%)
-	}
+	
+	
 	#red {
-		border-top: 3px solid rgb(204, 1, 1);
+		border-top: 4px solid hsl(348, 97%, 39%);
 	}
 
 /* The Style for the small boxes */
@@ -208,7 +257,9 @@
 		color: hsl(228, 12%, 44%);
 		margin-left: 7.5%;
 		max-width: 40%;	
-
+	}
+	hr{
+		visibility: hidden;	
 	}
 	.container > div{
 		background: rgba(233, 239, 248, 0.822);
