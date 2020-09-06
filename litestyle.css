@@ -268,7 +268,7 @@ p/*Figures*/
 	max-width: 50%;
 }
 
-/* WITH LOVE FROM ME TO iPHONE X  SCREENS USERS
+/* WITH LOVE FROM ME TO iPHONE X  SCREENS USERS */
 @media only screen and (min-width: 375px){
 	.toggle{
 		display: flex;
@@ -276,12 +276,12 @@ p/*Figures*/
 		justify-content: space-around;
 		
 		background: hsl(230, 22%, 74%);
-		width: 10%;
+		width: 14%;
 		height: 2.7%;
 		border-radius: 20px;
 		outline: none;
 		position: absolute;
-		top: 14%;
+		top: 10%;
 		right: 9vw;
 		cursor: pointer;
 }
@@ -299,49 +299,8 @@ p/*Figures*/
 #on{
 		visibility: hidden;
 }
-}*/
-
-/* WITH LOVE FROM TO iPAD SCREENS USERS*/
-@media only screen and (min-width: 400px) {
-	.toggle {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-
-		background: hsl(230, 22%, 74%);
-		width: 20%;
-		height: 2.7%;
-		border-radius: 20px;
-		outline: none;
-		position: absolute;
-		top: 14%;
-		right: 9vw;
-		cursor: pointer;
-	}
-
-	#off {
-		width: 45%;
-		height: 75%;
-		margin: auto;
-		border: none;
-		border-radius: 20px;
-		outline: none;
-		background: hsl(1, 1%, 100%);
-		opacity: 0.7;
-		font-size: 12px;
-		color: #ffb72e;
-		text-decoration: none;
-		visibility: visible;
-	}
-
-	#on {
-		visibility: hidden;
-	}
-
-	.line {
-		visibility: hidden;
-	}
 }
+
 
 /*THIS IS THE DESKTOP VIEW*/
 @media only screen and (min-width: 992px) {
