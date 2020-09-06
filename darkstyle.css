@@ -20,7 +20,7 @@ body {
 	border-radius: 20px;
 	outline: none;
 	position: absolute;
-	top: 17.3%;
+	top: 17%;
 	right: 8vw;
 	cursor: pointer;
 	}
@@ -106,6 +106,7 @@ p /*Figures*/{
 #toggleid h3{
 	margin-left: 8%;
 	font-family: Roboto, sans-serif;
+	font-size: 13px;
 	color: hsl(228, 34%, 66%);
 }
 .item{
